@@ -1,0 +1,97 @@
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  
+}
+
+body {
+  background-color:  hsl(233, 47%, 7%);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Main */
+
+.main {
+  max-width: 70vw;
+  min-height: 10rem;  
+  display: flex; 
+
+}
+
+
+
+
+/* Image */
+
+img-header {
+  
+  background-size: cover;
+  background-position: center;
+  flex-basis: 40%;
+  padding: 2.7rem;
+  background-color: hsl(277, 64%, 61%);
+  opacity: 0.4;
+  
+}
+
+/* Content */
+
+
+
+.left-cont {
+  flex-basis: 60%;
+  background-color: hsl(244, 38%, 16%);
+  color: hsl(0, 0%, 100%);
+  padding: 2.6rem;  
+  width: 1000px;
+  height: 446px;
+}
+
+
+
+strong {
+  color: hsl(277, 64%, 61%);
+}
+
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 15px;
+}
+
+.stats {
+  display: flex;
+  gap: 1em;
+}
+
+.stats h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 30px; 
+}
+
+.stats p {
+  font-size: 15px;
+  padding-top: 1px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+footer {
+  display: flex;
+}
+
+
+/* Info */
+
+/*# sourceMappingURL=style.scss.map *//*# sourceMappingURL=style.css.map */
